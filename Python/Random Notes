@@ -1,0 +1,31 @@
+Concurrency:
+
+This really happened to me:
+
+It was too beautiful outside, so I skipped out of the office. Book in hand, I climbed up a hill in the park, covered trees, and found a good one to plop under.
+
+I started to feel myself relax, sitting there... Listening to the birds, feeling the wind, reading quietly...
+
+When seven enthusiastic, happy dogs suddenly came bounding up the hill.
+
+Turns out a young woman, a professional dog walker, was taking them on a route right by my tree. And she did a great job of herding them. But it was interesting to watch each dog explore the environment, poking their noses here and there, sniffing and jumping, the group of them throughly checking out every stick and blade of grass, then coming together again as they moved to the next spot. All of them clearly having a blast.
+
+This made me think of concurrency.
+
+When you write concurrent code, it's like having a pack of enthusiastic dogs exploring for you. Doing whatever you need done in your program, independently, but together.
+
+And when, like this young woman, you learn to expertly guide them... that's a whole other level of programming.
+
+Modern Python has four tools for concurrency:
+
+Threads,
+
+Processes (i.e. the multiprocessing module), and
+
+AsyncIO. The most recent addition. And
+
+Leveraging Numpy, or something built on top of it.
+
+(#4 is a different category, since it's based on C and even Fortran (!) libraries, plus it's more for parallelization of calculation than for concurrency. And that's its own story. But anyways)
+
+If you like the idea of setting yourself apart from other devs, it's worth learning how to work with at least one of these. And like different breeds of dog, each has its own strengths.
